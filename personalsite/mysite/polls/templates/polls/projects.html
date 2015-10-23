@@ -1,0 +1,9 @@
+<h1>projects: </h1>
+{%load staticfiles%}
+<img src="{% static proj.path%}" width="640" height="480"/>
+<p>{{proj.description}}</p>
+
+<a href="/polls">main page</a>
+<a href="/polls/projects/{{indexhigh}}">next project</a>
+<a href="/polls/projects/{{indexlow }}">previous project</a>
+
